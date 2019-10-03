@@ -13,4 +13,4 @@ IDP3 - Interactive Media Design
 - **Zavizenov, Gleb**(designer/developer)
 
 #### Credits/Tools
-Adobe Photoshop, HTML, CSS, Javascript, Stock images from Unsplash, Svg Icons from https://www.flaticon.com/packs/fishing-16
+Adobe Photoshop, HTML, CSS, Javascript, Stock images from Unsplash, Svg Icons from https://www.flaticon.com/
