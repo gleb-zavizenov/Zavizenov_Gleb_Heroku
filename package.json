@@ -1,0 +1,27 @@
+{
+  "name": "zavizenov_gleb_heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleb-zavizenov/Zavizenov_Gleb_Heroku.git"
+  },
+  "author": "gleb zavizenov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gleb-zavizenov/Zavizenov_Gleb_Heroku/issues"
+  },
+  "homepage": "https://github.com/gleb-zavizenov/Zavizenov_Gleb_Heroku#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-postcss": "^8.0.0"
+  }
+}
