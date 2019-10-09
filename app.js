@@ -1,14 +1,16 @@
-const http = require('http');
+const express = require("express");
+const path = require("path");
 
-const hostname = '127.0.0.1';
-const port = process.enb.PORT || 3000;
+const app = express();
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
+app.use(express.static('public'));
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname + "/views/index.html"));
+})
+
+app.listen(port, () => {
+    console.log(`app is running on ${port}`);
+})
