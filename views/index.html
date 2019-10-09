@@ -4,18 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Porsche Taycan</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="images/logo.svg" alt="Porche Logo" class="header-logo-img">
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-menu-line"></div>
+                <div class="hamburger-menu-line"></div>
+                <div class="hamburger-menu-line"></div>
+            </div>
+            <nav class="header-nav">
+                <a href="#" class="header-nav-link">Home</a>
+                <a href="#" class="header-nav-link">Features</a>
+                <a href="#" class="header-nav-link">Video</a>
+            </nav>
+        </div>
+    </header>
     <main>
-        <section class="hero-section"></section>
-        <section class="benefits-section"></section>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <h1 class="hero-title">Porsche Taycan</h1>
+                <h3 class="hero-subtitle">Pure pleasure from driving</h3>
+                <a href="#" class="hero-btn">
+                    <div class="hero-btn-text">Learn More</div>
+                </a>
+            </div>
+        </section>
+        <section class="benefits-section">
+            <div class="container benefits-container">
+                <h2 class="benefits-title">Features of Taycan</h2>
+                <div class="slider">
+                    <div class="slider-container">
+                        <div class="slider-sections" style="right:0">
+                            <div class="slider-section">
+                                <div class="slider-section-icon">
+                                    <img src="images/dashboard.svg" alt="dashboard">
+                                </div>
+                                <h2 class="slider-section-title">Top speed</h2>
+                                <p class="slider-section-desc">Acceleration 0-100 for 2.8s</p>
+                            </div>
+                            <div class="slider-section">
+                                <div class="slider-section-icon">
+                                    <img src="images/battery.svg" alt="batery">
+                                </div>
+                                <h2 class="slider-section-title">Power</h2>
+                                <p class="slider-section-desc">Up to 460 kW or 616 hp</p>
+                            </div>
+                            <div class="slider-section">
+                                <div class="slider-section-icon">
+                                    <img src="images/break.svg" alt="breaks">
+                                </div>
+                                <h2 class="slider-section-title">Breaks</h2>
+                                <p class="slider-section-desc">Branded red Brembo breaks</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <div class="slider-controls-left">
+                            <img src="images/left-arrow.svg" alt="left-btn" class="slider-btn-img">
+                        </div>
+                        <div class="slider-controls-line"></div>
+                        <div class="slider-controls-right">
+                            <img src="images/right-arrow.svg" alt="right-btn" class="slider-btn-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="video-section"></section>
     </main>
     <footer></footer>
     <script src="js/main.js"></script>
 </body>
 </html>
+<!--Logo from: http://seekvectorlogo.com/porsche-vector-logo-svg/-->
+<!-- Icons from: https://www.flaticon.com/packs/car-parts-2-->

@@ -1,5 +1,188 @@
 @import '_var.scss';
+@import 'modules/header';
 
+//
+//Styles for the mobile version
 body{
+    position: relative;
     background-color:red;
+    font-family: Arial, "Montserrat";
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100%;
+}
+
+.container{
+    width:300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+//Styles for HERO Section
+.hero-section{
+    background:url(../images/taycan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-title{
+    color:#ffffff;
+    font-weight:700;
+    font-size:39px;
+}
+
+.hero-subtitle{
+    color:#ffffff;
+    font-weight:300;
+    font-size:16px;
+    margin-top:10px;
+}
+
+.hero-btn{
+    margin-top:40px;
+    width:170px;
+    height:40px;
+    border-radius: 30px;
+    background-color:#ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-btn-text{
+    color:$main-blue;
+    font-weight:700;
+    font-size:16px;
+}
+
+//Styles for BENEFITS Section
+.benefits-section{
+    background:url(../images/2d-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.benefits-title{
+    color:$main-blue;
+    font-weight:700;
+    font-size:30px;
+    margin-bottom: 30px;
+}
+
+.slider{
+    height:300px;
+    width:100%;
+    background-color: $main-blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.slider-container{
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+
+.slider-sections{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    position: relative;
+    width:1200px;
+    transition: all 0.8s ease-in-out;
+}
+
+.slider-section{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-section-icon{
+    margin-top:25px;
+    height:120px;
+
+    img{
+        height:100%;
+    }
+}
+
+.slider-section-title{
+    color:#ffffff;
+    font-weight:700;
+    font-size:30px;
+    margin-top:20px;
+}
+
+.slider-section-desc{
+    color:#ffffff;
+    font-weight:300;
+    font-size:16px;
+    margin-top:10px;
+}
+
+.slider-controls{
+    border-top: 1px solid #ffffff;
+    display: flex;
+    width:100%;
+    height:50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-controls-left{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-controls-line{
+    width:1px;
+    height:100%;
+    background-color: #ffffff;
+}
+
+.slider-controls-right{
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-btn-img{
+    height:50%;
+}
+
+//Styles for VIDEO Section
+.video-section{
+    background:url(../images/3d-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
