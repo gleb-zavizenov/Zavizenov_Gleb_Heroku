@@ -43,3 +43,56 @@ header{
 .header-nav{
     display: none;
 }
+
+//
+//Styles for the tablet version
+@media screen and (min-width:720px){
+    header{
+        top:25px;
+    }
+
+    .header-container{
+        width:720px;
+    }
+
+    .header-logo{
+        height: 80px;
+    }
+
+    .hamburger-menu{
+        height:50px;
+        width:60px;
+    }
+}
+
+//
+//Styles for the desktop version
+@media screen and (min-width:1200px){
+    .header-container{
+        width:1200px;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .header-nav{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        width:350px;
+    }
+
+    .header-nav-link{
+        font-size:18px;
+        font-weight:200;
+        color:#ffffff;
+        text-decoration: none;
+        transition: color 0.8s ease-in-out;
+    }
+
+    .header-nav-link:hover{
+        color: #151D51;
+    }
+} 
